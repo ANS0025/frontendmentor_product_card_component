@@ -61,7 +61,7 @@ p {
 	align-items: center;
 }
 
-.initial-price {
+.discount-price {
 	font-family: 'Fraunces';
 	font-style: normal;
 	font-weight: 700;
@@ -70,7 +70,7 @@ p {
 	color: #3D8168;
 }
 
-.discount-price {
+.initial-price {
 	margin-left: 19px;
 	font-family: 'Montserrat';
 	font-style: normal;
