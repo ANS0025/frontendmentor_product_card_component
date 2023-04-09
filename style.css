@@ -17,10 +17,14 @@ main {
 }
 
 section {
-	margin-left: 1.9688rem;
+	width: 18.75rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .sub {
+	width: 14.8125rem;
 	margin-top: 2rem;
 	font-family: 'Montserrat';
 	text-transform: uppercase;
@@ -55,6 +59,7 @@ p {
 	
 }
 .price {
+	width: 14.75rem;
 	margin-top: 1.8125rem;
 	display: flex;
 	flex-direction: row;
@@ -133,10 +138,14 @@ button:active {
 	}
 	
 	section {
-		margin-left: 0rem;
+		width: 0rem;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 	}
 	
 	.sub {
+		width: 18.4375rem;
 		margin-top: 1.5rem;
 		font-family: 'Montserrat';
 		text-transform: uppercase;
@@ -171,6 +180,7 @@ button:active {
 		
 	}
 	.price {
+		width: 18.4375rem;
 		margin-top: 1.5rem;
 		display: flex;
 		flex-direction: row;
