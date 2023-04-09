@@ -9,53 +9,53 @@ body {
 
 main {
 	display: flex;
-	width: 600px;
-	height: 450px;
+	width: 37.5rem;
+	height: 28.125rem;
 	background: #FFFFFF;
-	border-radius: 10px;
+	border-radius: 0.625rem;
 	overflow: hidden;
 }
 
 section {
-	margin-left: 31.5px;
+	margin-left: 1.9688rem;
 }
 
 .sub {
-	margin-top: 32px;
+	margin-top: 2rem;
 	font-family: 'Montserrat';
 	text-transform: uppercase;
 	font-style: normal;
 	font-weight: 500;
-	font-size: 12px;
-	line-height: 15px;
-	letter-spacing: 5px;
+	font-size: 0.75rem;
+	line-height: 0.9375rem;
+	letter-spacing: 0.3125rem;
 	color: #6C7289;
 }
 
 h1 {
-	width: 236px;
-	margin-top: 20px;
+	width: 14.75rem;
+	margin-top: 1.25rem;
 	font-family: 'Fraunces';
 	font-style: normal;
 	font-weight: 700;
-	font-size: 32px;
-	line-height: 32px;
+	font-size: 2rem;
+	line-height: 2rem;
 	color: #1C232B;
 }
 
 p {
-	width: 237px;
-	margin-top: 24px;
+	width: 14.8125rem;
+	margin-top: 1.5rem;
 	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 500;
-	font-size: 14px;
-	line-height: 23px;
+	font-size: 0.875rem;
+	line-height: 1.4375rem;
 	color: #6C7289;
 	
 }
 .price {
-	margin-top: 29px;
+	margin-top: 1.8125rem;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -65,18 +65,18 @@ p {
 	font-family: 'Fraunces';
 	font-style: normal;
 	font-weight: 700;
-	font-size: 32px;
-	line-height: 32px;
+	font-size: 2rem;
+	line-height: 2rem;
 	color: #3D8168;
 }
 
 .initial-price {
-	margin-left: 19px;
+	margin-left: 1.1875rem;
 	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 500;
-	font-size: 13px;
-	line-height: 23px;
+	font-size: 0.8125rem;
+	line-height: 1.4375rem;
 	text-decoration-line: line-through;
 	color: #6C7289;
 }
@@ -85,16 +85,16 @@ button {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-top: 30px;
-	width: 236px;
-	height: 48px;
+	margin-top: 1.875rem;
+	width: 14.75rem;
+	height: 3rem;
 	background: #3D8168;
-	border-radius: 8px;
+	border-radius: 0.5rem;
 	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 700;
-	font-size: 14px;
-	line-height: 17px;
+	font-size: 0.875rem;
+	line-height: 1.0625rem;
 	color: #FFFFFF;
 }
 
@@ -108,11 +108,11 @@ button:active {
 }
 
 .cart {
-	margin-right: 11.61px;
+	margin-right: 0.7256rem;
 }
 
 /* SP */
-@media (max-width: 768px) {
+@media (max-width: 72rem) {
 	body {
 		display: flex;
 		justify-content: center;
@@ -125,54 +125,53 @@ button:active {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		width: 343px;
-		min-width: 343px;
-		height: 611px;
+		width: 21.4375rem;
+		height: 38.1875rem;
 		background: #FFFFFF;
-		border-radius: 10px;
+		border-radius: 0.625rem;
 		overflow: hidden;
 	}
 	
 	section {
-		margin-left: 0px;
+		margin-left: 0rem;
 	}
 	
 	.sub {
-		margin-top: 24px;
+		margin-top: 1.5rem;
 		font-family: 'Montserrat';
 		text-transform: uppercase;
 		font-style: normal;
 		font-weight: 500;
-		font-size: 12px;
-		line-height: 15px;
-		letter-spacing: 5px;
+		font-size: 0.75rem;
+		line-height: 0.9375rem;
+		letter-spacing: 0.3125rem;
 		color: #6C7289;
 	}
 	
 	h1 {
-		width: 295px;
-		margin-top: 12px;
+		width: 18.4375rem;
+		margin-top: 0.75rem;
 		font-family: 'Fraunces';
 		font-style: normal;
 		font-weight: 700;
-		font-size: 32px;
-		line-height: 32px;
+		font-size: 2rem;
+		line-height: 2rem;
 		color: #1C232B;
 	}
 	
 	p {
-		width: 295px;
-		margin-top: 16px;
+		width: 18.4375rem;
+		margin-top: 1rem;
 		font-family: 'Montserrat';
 		font-style: normal;
 		font-weight: 500;
-		font-size: 14px;
-		line-height: 23px;
+		font-size: 0.875rem;
+		line-height: 1.4375rem;
 		color: #6C7289;
 		
 	}
 	.price {
-		margin-top: 24px;
+		margin-top: 1.5rem;
 		display: flex;
 		flex-direction: row;
 		align-items: center;
@@ -182,18 +181,18 @@ button:active {
 		font-family: 'Fraunces';
 		font-style: normal;
 		font-weight: 700;
-		font-size: 32px;
-		line-height: 32px;
+		font-size: 2rem;
+		line-height: 2rem;
 		color: #3D8168;
 	}
 	
 	.initial-price {
-		margin-left: 19px;
+		margin-left: 1.1875rem;
 		font-family: 'Montserrat';
 		font-style: normal;
 		font-weight: 500;
-		font-size: 13px;
-		line-height: 23px;
+		font-size: 0.8125rem;
+		line-height: 1.4375rem;
 		text-decoration-line: line-through;
 		color: #6C7289;
 	}
@@ -202,21 +201,21 @@ button:active {
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		margin-top: 20px;
-		width: 295px;
-		height: 48px;
+		margin-top: 1.25rem;
+		width: 18.4375rem;
+		height: 3rem;
 		background: #3D8168;
-		border-radius: 8px;
+		border-radius: 0.5rem;
 		font-family: 'Montserrat';
 		font-style: normal;
 		font-weight: 700;
-		font-size: 14px;
-		line-height: 17px;
+		font-size: 0.875rem;
+		line-height: 1.0625rem;
 		color: #FFFFFF;
 	}
 	
 	.cart {
-		margin-right: 11.61px;
+		margin-right: 0.7256rem;
 	}
 }
   
